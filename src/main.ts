@@ -14,7 +14,7 @@ async function bootstrap() {
   app.useGlobalPipes(new ValidationPipe());
   
   const config = new DocumentBuilder()
-          .setTitle("HR System")
+          .setTitle("HR Systems")
           .setDescription("Simple HR Management System")
           .build()
 
